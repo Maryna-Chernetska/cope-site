@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper{
+    background: linear-gradient(to right, rgb(129, 23, 242), rgb(175, 2, 244));
+}
+
+.header{
+    height: 100px;
+}
+
+h1, nav, ul, li, p{
+    display: inline-flex;
+}
+
+li{
+    background:linear-gradient(to right, rgb(175, 2, 244), rgb(129, 23, 242));
+    border: 3px solid rgb(66, 33, 83);
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer; 
+    border-radius: 20px;
+}
+
+li:hover{
+    border: 3px solid rgb(0, 47, 255);
+    background: rgb(66, 33, 83);
+}
+
+li:active{
+    border-color: rgb(119, 0, 255);
+    background: rgb(23, 148, 221);
+}
+
+
+
+.secondary-button {
+    background-color: rgb(175, 2, 244); 
+    color: #7a1ba0; 
+    border: 3px solid rgb(175, 2, 244);  
+    border-radius: 40px; 
+    width: 250px;
+    height: 60px; 
+    cursor: pointer; 
+    margin-left: 350px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center; 
+    line-height: 40px; 
+}
+
+
+.secondary-button:hover {
+    background-color: rgb(129, 23, 242); 
+}
+
+.secondary-button:active {
+    background-color: rgb(129, 23, 242); 
+}
+
+.primary-button {
+    background-color: rgb(111, 21, 208); 
+    color: rgb(66, 33, 83); 
+    border: 1px solid rgb(66, 33, 83); 
+    margin-left: 20px;
+    border-radius: 40px; 
+    padding: 5px 10px; 
+    margin-top: 10px;
+    font-size: 20px; 
+    cursor: pointer; 
+}
+
+.primary-button:hover {
+    background-color: #1c68b9; 
+}
+
+.primary-button:active {
+    background-color: #032d68; 
+}
+
+
+
+.square {
+    background-color: rgb(175, 2, 244); 
+    color: #e1c6e9; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border-radius: 80px; 
+    width: 1700px;
+    height: 600px;
+    
+}
+
+.content {
+    padding-left: 70px; 
+    padding-top: 100px;
+}
+
+img {
+    height: auto; 
+    display: block;
+    max-width: 100%; 
+    margin: 0 auto 10px; 
+    padding-left: 600px;  
+}
+
+.fab.fa-youtube:hover,
+.fab.fa-instagram:hover,
+.fab.fa-telegram:hover {
+    color: rgb(175, 2, 244); 
+    cursor: pointer; 
+}
+
+
+
+.form {
+    border-radius: 20px; 
+    padding: 10px;
+}
+
+
+
+.contacts {
+    width: 30%; 
+}
+
+
+.interests {
+    order: 2;
+}
